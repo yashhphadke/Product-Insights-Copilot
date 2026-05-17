@@ -1,4 +1,4 @@
-const BASE = "http://127.0.0.1:8000";
+const BASE = "https://product-insights-copilot-production.up.railway.app";
 
 // ── helpers ────────────────────────────────────────────────────────────────
 function setResult(id, text, state = "") {
