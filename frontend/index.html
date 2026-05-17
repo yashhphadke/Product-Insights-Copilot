@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Insights Copilot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true"></div>
+
+  <main class="app">
+    <header class="app-header">
+      <p class="eyebrow">Product Insights</p>
+      <h1 class="app-title">Copilot</h1>
+      <p class="app-subtitle">Pulse data, docs, and drafts — in one calm workspace.</p>
+    </header>
+
+    <div class="workspace">
+      <div class="workspace-sidebar">
+        <div class="cards">
+
+      <section class="card">
+        <div class="card-head">
+          <span class="card-icon" aria-hidden="true">◆</span>
+          <div>
+            <h2 class="card-title">Pulse Calculator</h2>
+            <p class="card-desc">Combine three values into a single insight.</p>
+          </div>
+        </div>
+        <div class="field-group">
+          <div class="field-label-row">
+            <label class="field-label" for="weeks">Weeks</label>
+            <span id="weeksValue" class="field-value" aria-live="polite">4</span>
+          </div>
+          <input type="range" id="weeks" min="1" max="8" value="4" step="1" />
+          <div class="range-hints" aria-hidden="true">
+            <span>1</span>
+            <span>8</span>
+          </div>
+        </div>
+        <div class="field-group">
+          <label class="field-label" for="maxRating">Min ratings</label>
+          <select id="maxRating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3"selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div class="field-group">
+          <label class="field-label" for="minRating">Max ratings</label>
+          <select id="minRating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" >3</option>
+            <option value="4"selected>4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <button type="button" class="btn btn-primary" id="addBtn">Generate Insights</button>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <span class="card-icon" aria-hidden="true">◇</span>
+          <div>
+            <h2 class="card-title">Append to Google Doc</h2>
+            <p class="card-desc">Push the pulse result into your document.</p>
+          </div>
+        </div>
+        <div class="field-group">
+          <label class="field-label" for="docId">Document ID</label>
+          <input type="text" id="docId" placeholder="Paste your Google Doc ID" autocomplete="off" />
+        </div>
+        <button type="button" class="btn btn-secondary" id="docBtn">Append to doc</button>
+        <output id="docResult" class="result-box" for="docBtn">Doc result will appear here</output>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <span class="card-icon" aria-hidden="true">○</span>
+          <div>
+            <h2 class="card-title">Create Gmail Draft</h2>
+            <p class="card-desc">Draft an email using your latest pulse output.</p>
+          </div>
+        </div>
+        <div class="field-group">
+          <label class="field-label" for="emailTo">Recipient</label>
+          <input type="email" id="emailTo" placeholder="name@company.com" autocomplete="email" />
+        </div>
+        <button type="button" class="btn btn-secondary" id="mailBtn">Create draft</button>
+        <output id="mailResult" class="result-box" for="mailBtn">Mail result will appear here</output>
+      </section>
+
+        </div>
+      </div>
+
+      <aside class="workspace-result" aria-label="Pulse insight">
+        <p class="result-heading">Insight</p>
+        <output id="result" class="result-box result-panel" for="addBtn">Run the pulse calculator to generate your insight.</output>
+      </aside>
+    </div>
+
+    <footer class="app-footer">
+      <span>Connected to</span>
+      <code class="endpoint">127.0.0.1:8000</code>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

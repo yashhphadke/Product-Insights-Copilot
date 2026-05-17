@@ -1,0 +1,247 @@
+{
+  "stocks": {
+    "url": "https://groww.in/pricing/stocks",
+    "pricing_items": [
+      "MTFs Buy now, pay later",
+      "Invest in Mutual Funds Invest in direct mutual funds at zero charges via lump sump investments or SIPs",
+      "Invest in direct mutual funds at zero charges via lump sump investments or SIPs",
+      "Estimate charges for your trade/investment",
+      "Pricing Brokerage and charges on Groww",
+      "Brokerage and charges on Groww",
+      "Account Opening ₹ 0 trading & demat opening",
+      "Account Maintenance Charges ₹ 0 maintenance charges",
+      "Account Maintenance Charges",
+      "maintenance charges",
+      "Equity Brokerage ₹ 20 0.1% per executed order whichever is lower, minimum ₹5",
+      "Equity Brokerage",
+      "0.1% per executed order",
+      "whichever is lower, minimum ₹5",
+      "Zero Fixed Charges Zero Hidden Charges START INVESTING",
+      "Zero Fixed Charges Zero Hidden Charges",
+      "Zero Fixed Charges",
+      "0.025% SELL",
+      "0.1% BUY SELL",
+      "NSE: 0.00297% BSE: 0.00375% BUY SELL",
+      "NSE: 0.00297%",
+      "BSE: 0.00375%",
+      "0.0001% BUY SELL",
+      "₹0 BUY SELL",
+      "Depository: ₹3.5 (male) and ₹3.25 (female) Groww: ₹16.5 (₹0 for < 100 debit value) SELL",
+      "Depository: ₹3.5 (male) and ₹3.25 (female)",
+      "Groww: ₹16.5 (₹0 for < 100 debit value)",
+      "NSE: 0.0001% BUY SELL",
+      "NSE: 0.0001%",
+      "Auto Square-off charges for open intraday positions by system ₹50 per position",
+      "Auto Square-off charges for open intraday positions by system",
+      "Auto Square-off charges",
+      "₹50 per position",
+      "Auction If unable to deliver a stock (not in demat) As per actual penalty by exchange",
+      "As per actual penalty by exchange",
+      "Delayed payment charges (DPC) 0.05% per day (inclusive of GST), simple interest, compounded monthly",
+      "Delayed payment charges (DPC)",
+      "0.05% per day (inclusive of GST), simple interest, compounded monthly",
+      "Pledge ₹20 per ISIN, for Pledge/Unpledge order",
+      "₹20 per ISIN, for Pledge/Unpledge order",
+      "18% GST On Brokerage, DP charges, Exchange Transaction charges, IPFT, SEBI Turnover charges, Delayed payment charges, DDPI charges, KYC modification request charges, API charges and Auto Square-Off charges",
+      "On Brokerage, DP charges, Exchange Transaction charges, IPFT, SEBI Turnover charges, Delayed payment charges, DDPI charges, KYC modification request charges, API charges and Auto Square-Off charges",
+      "MTF charges Brokerage - 0.1% per order of the order value | Interest charges - 14.95% per annum on the funded amount",
+      "MTF charges",
+      "Brokerage - 0.1% per order of the order value | Interest charges - 14.95% per annum on the funded amount",
+      "Intraday to MTF conversion charges MTF buy order charges are applied on Intraday to MTF conversion - 0.1% per order of the order value",
+      "Intraday to MTF conversion charges",
+      "MTF buy order charges are applied on Intraday to MTF conversion - 0.1% per order of the order value",
+      "BSE Equity exchange transaction charges 0.00345% for all groups except R, SS, ST, ZP (1.0%) X,XT,Z (0.1%) A,B,E,F,FC,G,GC,W,T (0.00375%)",
+      "BSE Equity exchange transaction charges",
+      "0.00345% for all groups except R, SS, ST, ZP (1.0%) X,XT,Z (0.1%) A,B,E,F,FC,G,GC,W,T (0.00375%)",
+      "Buyback charges Brokerage - ₹20 per executed transaction | DP charges - ₹20 per company, ₹0 < 100 debit value",
+      "Buyback charges",
+      "Brokerage - ₹20 per executed transaction | DP charges - ₹20 per company, ₹0 < 100 debit value",
+      "Other Charges",
+      "UPI Mandate balance charges Equity brokerage for those using UPI Mandate balance is 1% of the order value, no maximum cap.",
+      "UPI Mandate balance charges",
+      "Equity brokerage for those using UPI Mandate balance is 1% of the order value, no maximum cap.",
+      "PRODUCTS Stocks F&O MTF ETF IPO Mutual Funds Commodities Groww Terminal 915 Terminal Stock Screens Algo Trading Groww Charts Groww Digest Demat Account Groww AMC PMS",
+      "· By providing 100% paperless online free Demat and trading account opening",
+      "· By being transparent about fees and charges involved while investing in a product",
+      "3. Pay 20% upfront margin of the transaction value to trade in cash market segment."
+    ],
+    "tables": [
+      [
+        [
+          "Equity"
+        ],
+        [
+          "Intraday",
+          "Delivery"
+        ],
+        [
+          "STT (Securities Transaction Tax)",
+          "0.025% SELL",
+          "0.1% BUY SELL"
+        ],
+        [
+          "Stamp Duty",
+          "0.003% BUY",
+          "0.015% BUY"
+        ],
+        [
+          "Exchange Transaction charge",
+          "NSE: 0.00297% BSE: 0.00375% BUY SELL",
+          "NSE: 0.00297% BSE: 0.00375% BUY SELL"
+        ],
+        [
+          "SEBI Turnover charge",
+          "0.0001% BUY SELL",
+          "0.0001% BUY SELL"
+        ],
+        [
+          "DP charges (per sell transaction)",
+          "₹0 BUY SELL",
+          "Depository: ₹3.5 (male) and ₹3.25 (female) Groww: ₹16.5 (₹0 for < 100 debit value) SELL"
+        ],
+        [
+          "Investor Protection Fund Trust charge",
+          "NSE: 0.0001% BUY SELL",
+          "NSE: 0.0001% BUY SELL"
+        ]
+      ]
+    ]
+  },
+  "fno": {
+    "url": "https://groww.in/pricing/futures-and-options",
+    "pricing_items": [
+      "MTFs Buy now, pay later",
+      "Invest in Mutual Funds Invest in direct mutual funds at zero charges via lump sump investments or SIPs",
+      "Invest in direct mutual funds at zero charges via lump sump investments or SIPs",
+      "Estimate charges for your trade/investment",
+      "Pricing Brokerage and charges on Groww",
+      "Brokerage and charges on Groww",
+      "Account Opening ₹ 0 trading & demat opening",
+      "Account Maintenance Charges ₹ 0 maintenance charges",
+      "Account Maintenance Charges",
+      "maintenance charges",
+      "Futures & Options Brokerage ₹ 20 per executed order (Equity/Commodity F&O)",
+      "Futures & Options Brokerage",
+      "Zero Fixed Charges Zero Hidden Charges START INVESTING",
+      "Zero Fixed Charges Zero Hidden Charges",
+      "Zero Fixed Charges",
+      "0.15% on premium SELL",
+      "0.05% on premium SELL",
+      "NSE: 0.00173% BSE: 0.00% BUY SELL",
+      "NSE: 0.00173%",
+      "NSE: 0.03503% (on premium) BSE: 0.0325% (on premium) BUY SELL",
+      "NSE: 0.03503% (on premium)",
+      "BSE: 0.0325% (on premium)",
+      "MCX: 0.0021% NSE: 0.0001% BUY SELL",
+      "MCX: 0.0021%",
+      "NSE: 0.0001%",
+      "MCX: 0.0418% NSE: 0.001% BUY SELL",
+      "MCX: 0.0418%",
+      "NSE: 0.001%",
+      "0.0001% BUY SELL",
+      "₹0 BUY SELL",
+      "0.0005% BUY SELL",
+      "Auto Square-off charges for open intraday positions by system ₹50 per position",
+      "Auto Square-off charges for open intraday positions by system",
+      "Auto Square-off charges",
+      "₹50 per position",
+      "Auction If unable to deliver a stock (not in demat) As per actual penalty by exchange",
+      "As per actual penalty by exchange",
+      "Delayed payment charges (DPC) 0.05% per day (inclusive of GST), simple interest, compounded monthly",
+      "Delayed payment charges (DPC)",
+      "0.05% per day (inclusive of GST), simple interest, compounded monthly",
+      "Cash shortfall charges 0.045% per day",
+      "Cash shortfall charges",
+      "0.045% per day",
+      "Pledge ₹20 per ISIN, for Pledge/Unpledge order",
+      "₹20 per ISIN, for Pledge/Unpledge order",
+      "18% GST On Brokerage, DP charges, Exchange Transaction charges, IPFT, SEBI Turnover charges, Delayed payment charges, DDPI charges, API charges and Auto Square-Off charges",
+      "On Brokerage, DP charges, Exchange Transaction charges, IPFT, SEBI Turnover charges, Delayed payment charges, DDPI charges, API charges and Auto Square-Off charges",
+      "API charges ₹499 per month for access to all trading APIs including live data, historical data, orders, portfolio and positions APIs",
+      "API charges",
+      "₹499 per month for access to all trading APIs including live data, historical data, orders, portfolio and positions APIs",
+      "Physical Delivery of derivatives ₹20 per executed transaction",
+      "₹20 per executed transaction",
+      "PRODUCTS Stocks F&O MTF ETF IPO Mutual Funds Commodities Groww Terminal 915 Terminal Stock Screens Algo Trading Groww Charts Groww Digest Demat Account Groww AMC PMS",
+      "· By providing 100% paperless online free Demat and trading account opening",
+      "· By being transparent about fees and charges involved while investing in a product",
+      "3. Pay 20% upfront margin of the transaction value to trade in cash market segment."
+    ],
+    "tables": [
+      [
+        [
+          "Equity",
+          "Commodity"
+        ],
+        [
+          "Futures",
+          "Options",
+          "Futures",
+          "Options"
+        ],
+        [
+          "STT/CTT",
+          "0.05% SELL",
+          "0.15% on premium SELL",
+          "0.01% SELL",
+          "0.05% on premium SELL"
+        ],
+        [
+          "Stamp Duty",
+          "0.002% BUY",
+          "0.003% BUY",
+          "0.002% BUY",
+          "0.003% BUY"
+        ],
+        [
+          "Exchange Transaction charge",
+          "NSE: 0.00173% BSE: 0.00% BUY SELL",
+          "NSE: 0.03503% (on premium) BSE: 0.0325% (on premium) BUY SELL",
+          "MCX: 0.0021% NSE: 0.0001% BUY SELL",
+          "MCX: 0.0418% NSE: 0.001% BUY SELL"
+        ],
+        [
+          "SEBI Turnover charge",
+          "0.0001% BUY SELL",
+          "0.0001% BUY SELL",
+          "0.0001% BUY SELL",
+          "0.0001% BUY SELL"
+        ],
+        [
+          "DP charges (per sell transaction)",
+          "₹0 BUY SELL",
+          "₹0 BUY SELL",
+          "₹0 BUY SELL",
+          "₹0 BUY SELL"
+        ],
+        [
+          "Investor Protection Fund Trust charge",
+          "0.0001% BUY SELL",
+          "0.0005% BUY SELL",
+          "₹0 BUY SELL",
+          "₹0 BUY SELL"
+        ]
+      ]
+    ]
+  },
+  "mutual_funds": {
+    "url": "https://groww.in/pricing/mutual-funds",
+    "pricing_items": [
+      "MTFs Buy now, pay later",
+      "Invest in Mutual Funds Invest in direct mutual funds at zero charges via lump sump investments or SIPs",
+      "Invest in direct mutual funds at zero charges via lump sump investments or SIPs",
+      "Estimate charges for your trade/investment",
+      "Pricing Brokerage and charges on Groww",
+      "Brokerage and charges on Groww",
+      "Account Opening ₹ 0",
+      "Transaction Charges ₹ 0 No charge for investing in or redeeming from mutual funds",
+      "Transaction Charges",
+      "No charge for investing in or redeeming from mutual funds",
+      "PRODUCTS Stocks F&O MTF ETF IPO Mutual Funds Commodities Groww Terminal 915 Terminal Stock Screens Algo Trading Groww Charts Groww Digest Demat Account Groww AMC PMS",
+      "· By providing 100% paperless online free Demat and trading account opening",
+      "· By being transparent about fees and charges involved while investing in a product",
+      "3. Pay 20% upfront margin of the transaction value to trade in cash market segment."
+    ],
+    "tables": []
+  }
+}
