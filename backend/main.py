@@ -10,7 +10,7 @@ from fastmcp import Client
 from fastmcp.client.transports import PythonStdioTransport
 from dotenv import load_dotenv
 
-from pulse_generation.pulsegenerator import get_pulse
+from backend.pulse_generation.pulsegenerator import get_pulse
 
 BASE_DIR = Path(__file__).parent.resolve()
 load_dotenv(BASE_DIR / ".env")
@@ -78,7 +78,7 @@ class EmailRequest(BaseModel):
 
 # ── helpers ──────────────────────────────────────────────────────────────────
 def _make_mcp_client() -> Client:
-    server_path = str(BASE_DIR.parent / "mcp" / "server.py")
+    server_path = str(BASE_DIR.parent /"backend"/ "mcp" / "server.py")
     return Client(PythonStdioTransport(server_path))
 
 def _parse_tool_call(text: str):

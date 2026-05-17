@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import pandas as pd
 import os
 import json
-from pulse_generation.clustering import get_clusters
+from backend.pulse_generation.clustering import get_clusters
 
 load_dotenv()
 
