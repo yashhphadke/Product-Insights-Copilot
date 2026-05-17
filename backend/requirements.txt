@@ -6,7 +6,6 @@ aiosignal==1.4.0
 annotated-doc==0.0.4
 annotated-types==0.7.0
 anyio==4.13.0
-app-store-scraper==0.3.5
 attrs==26.1.0
 Authlib==1.7.2
 backports.tarfile==1.2.0
