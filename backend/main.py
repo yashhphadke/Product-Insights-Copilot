@@ -1,7 +1,7 @@
 import json
 import os
 from pathlib import Path
-
+import sys
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -10,7 +10,7 @@ from fastmcp import Client
 from fastmcp.client.transports import PythonStdioTransport
 from dotenv import load_dotenv
 
-from backend.pulse_generation.pulsegenerator import get_pulse
+from pulse_generation.pulsegenerator import get_pulse
 
 BASE_DIR = Path(__file__).parent.resolve()
 load_dotenv(BASE_DIR / ".env")
@@ -78,8 +78,14 @@ class EmailRequest(BaseModel):
 
 # ── helpers ──────────────────────────────────────────────────────────────────
 def _make_mcp_client() -> Client:
-    server_path = str(BASE_DIR.parent /"backend"/ "mcp" / "server.py")
-    return Client(PythonStdioTransport(server_path))
+    server_path = str(BASE_DIR / "mcp" / "server.py")
+
+    transport = PythonStdioTransport(
+        python_cmd=sys.executable,
+        script_path=server_path
+    )
+
+    return Client(transport)
 
 def _parse_tool_call(text: str):
     try:

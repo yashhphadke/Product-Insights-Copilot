@@ -76,7 +76,7 @@ def safe_parse_tool_call(text: str):
 
 async def main():
 
-    transport = PythonStdioTransport("backend/mcp/server.py")
+    transport = PythonStdioTransport("mcp/server.py")
     mcp_client = Client(transport)
 
     async with mcp_client:

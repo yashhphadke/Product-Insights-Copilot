@@ -151,31 +151,3 @@ document.getElementById("mailBtn").addEventListener("click", async () => {
     setResult("mailResult", `Error: ${err.message}`, "error");
   }
 });
-
-// ── 4. Natural-language MCP chat ───────────────────────────────────────────
-const chatBtn = document.getElementById("chatBtn");
-if (chatBtn) chatBtn.addEventListener("click", async () => {
-  const message = document.getElementById("chatMsg").value.trim();
-
-  if (!message) {
-    setResult("chatResult", "Please type a message first.", "error");
-    return;
-  }
-
-  setResult("chatResult", "Thinking…", "loading");
-  try {
-    const res  = await fetch(`${BASE}/mcp/chat`, {
-      method:  "POST",
-      headers: { "Content-Type": "application/json" },
-      body:    JSON.stringify({ message }),
-    });
-    const data = await res.json();
-    setResult(
-      "chatResult",
-      `Tool: ${data.tool}\nArgs: ${JSON.stringify(data.arguments, null, 2)}\n\nResult:\n${flatten(data.result)}`,
-      "success"
-    );
-  } catch (err) {
-    setResult("chatResult", `Error: ${err.message}`, "error");
-  }
-});

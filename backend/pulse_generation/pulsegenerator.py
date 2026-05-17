@@ -3,9 +3,20 @@ from dotenv import load_dotenv
 import pandas as pd
 import os
 import json
-from backend.pulse_generation.clustering import get_clusters
+from pulse_generation.clustering import get_clusters
 
 load_dotenv()
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+DATA_DIR = os.path.join(
+    BASE_DIR,
+    "..",
+    "..",
+    "data"
+)
+
+FEE_FILE = os.path.join(DATA_DIR,"groww_pricing.json")
 
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 MODEL_NAME = "meta-llama/llama-4-scout-17b-16e-instruct"
@@ -48,7 +59,7 @@ def get_pulse(week,min_rate,max_rate):
   )
 
   # Pricing reference data
-  with open("./data/groww_pricing.json", "r", encoding="utf-8") as f:
+  with open(FEE_FILE, "r", encoding="utf-8") as f:
       pricing_data = json.load(f)
 
 

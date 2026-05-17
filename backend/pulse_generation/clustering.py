@@ -1,11 +1,26 @@
 import numpy as np
 import pandas as pd
 import umap
+import os
 import hdbscan
+
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+DATA_DIR = os.path.join(
+    BASE_DIR,
+    "..",
+    "..",
+    "data"
+)
+
+REVIEWS_PATH = os.path.join(DATA_DIR, "review.csv")
+
+EMBEDDINGS_PATH = os.path.join(DATA_DIR, "embeddings.npy")
 
 def get_clusters(week,min_rating,max_rating):
     df = pd.read_csv(
-        "./data/review.csv"
+        REVIEWS_PATH
     )
 
     df["date"] = pd.to_datetime(
@@ -35,7 +50,7 @@ def get_clusters(week,min_rating,max_rating):
     print(filtered_df.shape)
 
     embeddings = np.load(
-        "./data/embeddings.npy"
+        EMBEDDINGS_PATH
     )
 
     print("\nOriginal Embeddings Shape:")
