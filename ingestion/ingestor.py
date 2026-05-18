@@ -44,7 +44,7 @@ def main():
         )
 
         return (df,embeddings_final)
-    df = pd.read_csv("./data/review.csv")
+    df = pd.read_csv("./backend/data/review.csv")
     filtered_df, embeddings = (generate_review_embeddings(df))
 
     print("\nFiltered Reviews:")
@@ -52,7 +52,7 @@ def main():
 
     print("\nEmbeddings Shape:")
     print(embeddings.shape)
-    np.save("./data/embeddings.npy",embeddings)
+    np.save("./backend/data/embeddings.npy",embeddings)
     embeddings_time =  time.time()
     print("time taken for embedding generation: {}s".format(embeddings_time-fee_scraper_time))
     print("total time taken{}s".format(embeddings_time-start))

@@ -102,7 +102,7 @@ def scrape_tables(soup):
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
-def fee_scraper(output_path="./data/groww_pricing.json"):
+def fee_scraper(output_path="./backend/data/groww_pricing.json"):
     result = {}
 
     for key, url in URLS.items():

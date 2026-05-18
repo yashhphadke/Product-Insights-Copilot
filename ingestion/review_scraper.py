@@ -1,6 +1,5 @@
 from google_play_scraper import reviews, Sort
 from langdetect import detect
-from presidio_analyzer import AnalyzerEngine
 import pandas as pd
 import emoji
 import re
@@ -62,4 +61,4 @@ def review_scraper():
         )
 
     google_review = pd.DataFrame(cleaned_google)
-    google_review.to_csv("./data/review.csv")
+    google_review.to_csv("./backend/data/review.csv")
